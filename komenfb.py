@@ -19,13 +19,14 @@ else:
 #                      Exception
 try:
 	import requests
+    
 except ImportError:
-	print R + '_     _'.center(44)
-	print "o' \.=./ `o".center(44)
-	print '(o o)'.center(44)
-	print 'ooO--(_)--Ooo'.center(44)
+	print R + '▄▄▄ ▄ ▄  ▄  ▄▄  ▄▄▄ ▄▄  ▄ ▄  ▄  ▄▄    ▄▄▄ ▄▄▄ ▄▄ ▄▄'.center(44)
+	print "█▄▄ █▄█ █▄█ █▄▀ █▄▄ █ █ █▄▀ █▄█ █ █   █   █ █ █ █ █".center(44)
+	print '▄▄█ █ █ █ █ █ █ █▄▄ █▄█ █ █ █ █	█ █ ▄ █▄▄ █▄█ █   █'.center(44)
+	print '________________________'.center(44)
 	print W + ' '
-	print ('O S I F').center(44)
+	print ('J H O N B I R').center(44)
 	print ' '
 	print "[!] Can't import module 'requests'\n"
 	sys.exit()
